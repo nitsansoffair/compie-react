@@ -1,0 +1,29 @@
+@import "../abstract/variables";
+
+.game {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  &__header {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  &__row {
+    height: 5rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__col {
+    width: 5rem;
+    margin: .5rem;
+    background-color: $color-primary;
+    text-align: center;
+    padding-top: 1.2rem;
+  }
+}
