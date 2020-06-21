@@ -9,10 +9,13 @@ const DEFAULT_BOARD = [
 ];
 const DEFAULT_TURN = X;
 
+const UPDATE_BOARD = 'UPDATE_BOARD';
+
 export default {
     X,
     O,
     NONE,
     DEFAULT_BOARD,
-    DEFAULT_TURN
+    DEFAULT_TURN,
+    UPDATE_BOARD
 };

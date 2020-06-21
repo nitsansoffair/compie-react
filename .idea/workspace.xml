@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2e45bd-766e-4857-ae1e-730ce4a485c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mqtt/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/components/_game.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/components/_game.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compie-node" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592733841711</updated>
-      <workItem from="1592733845742" duration="5610000" />
+      <workItem from="1592733845742" duration="7483000" />
     </task>
     <task id="LOCAL-00001" summary="Tic Tac Toe">
       <created>1592744775127</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592744775127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Buttons">
+      <created>1592745121906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592745121906</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,24 +92,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tic Tac Toe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tic Tac Toe" />
+    <MESSAGE value="Buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buttons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2065" y="100" key="CommitChangelistDialog2" timestamp="1592744773886">
+    <state x="2065" y="100" key="CommitChangelistDialog2" timestamp="1592745121033">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
-    <state x="2065" y="100" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592744773886" />
-    <state x="2220" y="261" key="FileChooserDialogImpl" timestamp="1592733867533">
+    <state x="2065" y="100" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592745121033" />
+    <state x="2220" y="261" key="FileChooserDialogImpl" timestamp="1592747677395">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
-    <state x="2220" y="261" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592733867533" />
+    <state x="2220" y="261" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592747677395" />
     <state x="2309" y="399" key="Github.ShareDialog" timestamp="1592741895472">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state x="2309" y="399" key="Github.ShareDialog/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592741895472" />
-    <state x="2032" y="239" key="Vcs.Push.Dialog.v2" timestamp="1592744776538">
+    <state x="2032" y="239" key="Vcs.Push.Dialog.v2" timestamp="1592745123018">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
-    <state x="2032" y="239" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592744776538" />
+    <state x="2032" y="239" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1592745123018" />
   </component>
 </project>
