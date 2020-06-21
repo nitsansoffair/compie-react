@@ -8,7 +8,9 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {
+            started: false
+        };
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -81,7 +83,7 @@ class App extends Component {
         const board = this.getBoard();
         const currentTurn = this.getTurn();
 
-        if (board[id - 1] === constants.NONE) {
+        if (board[id - 1] === constants.NONE && this.state.started) {
             board[id - 1] = currentTurn;
             const newTurn = currentTurn === constants.X ? constants.O : constants.X;
 
@@ -92,6 +94,20 @@ class App extends Component {
         }
     };
 
+    onStart = (e) => {
+        e.preventDefault();
+
+        this.setState({
+            started: true
+        });
+    };
+
+    onRestart = (e) => {
+        e.preventDefault();
+
+        this.props.resetGame();
+    };
+
     render() {
         const board = this.getBoard();
 
@@ -99,6 +115,10 @@ class App extends Component {
             <div className="game__container">
                 <div className="game__header">Tic Tac Toe</div>
                 { this.state.winner && <div className="game__header"> The winner is { this.state.winner } </div> }
+                <div className="game__buttons__container">
+                    <button className="game__button" onClick={this.onStart}>Start</button>
+                    <button className="game__button" onClick={this.onRestart}>Restart</button>
+                </div>
                 <div className="game__row">
                     <div id="1" className="game__col" onClick={(e) => this.onUpdateBoard(e, 1)}>{ this.getCellValue(board[1 - 1]) }</div>
                     <div id="2" className="game__col" onClick={(e) => this.onUpdateBoard(e, 2)}>{ this.getCellValue(board[2 - 1]) }</div>

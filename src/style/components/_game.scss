@@ -4,6 +4,7 @@
   &__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 1rem;
   }
 
@@ -25,5 +26,14 @@
     background-color: $color-primary;
     text-align: center;
     padding-top: 1.2rem;
+  }
+
+  &__buttons__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__button {
+    margin-top: .5rem;
   }
 }
